@@ -1,6 +1,6 @@
-@start_time = Time.now
+require 'rglpk' # https://github.com/wtaysom/rglpk
 
-require 'rglpk'
+@start_time = Time.now
 
 nums = [
 [8,0,0,0,0,0,0,0,0],
